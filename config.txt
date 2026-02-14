@@ -1,0 +1,5 @@
+#=============================================#
+# perintah upload file backup/cfg ke mikrotik #
+#=============================================#
+
+file upload cfg-startup startrun.dat ftp ipaddress 172.19.9.241 path /olt user noc password noc
